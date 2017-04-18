@@ -182,8 +182,8 @@ typedef NS_ENUM(NSUInteger, CBDirection) {
     
     //  全屏按钮
     UIButton *fullScreenBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    fullScreenBtn.frame = CGRectMake(CGRectGetMaxX(self.topView.frame)-40, 15, 35, 20);
-    fullScreenBtn.titleLabel.font = [UIFont systemFontOfSize:11];
+    fullScreenBtn.frame = CGRectMake(CGRectGetMaxX(self.topView.frame) - 60, 5, 50, 30);
+    fullScreenBtn.titleLabel.font = [UIFont systemFontOfSize:15];
     fullScreenBtn.layer.masksToBounds = YES;
     fullScreenBtn.layer.cornerRadius = 3.0f;
     fullScreenBtn.layer.borderWidth = 1;
